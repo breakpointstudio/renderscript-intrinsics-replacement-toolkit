@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    compileSdkVersion 31
-    buildToolsVersion "31.0.0"
+    namespace = "com.google.android.renderscript_test"
+    compileSdkVersion = 34
 
     defaultConfig {
         applicationId "com.google.android.renderscript_test"
-        minSdkVersion 21
-        targetSdkVersion 31
+        minSdkVersion 24
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
 
